@@ -27,11 +27,12 @@
 
 import /init.recovery.qcom_decrypt.rc
 	
-service hal_cryptoeng_oplus /system/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
+service hal_cryptoeng_oplus /odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
     class late_start
     user system
     group system input sdcard_rw sdcard_r
     seclabel u:r:recovery:s0
+    disabled
 
 
 service make-fake-partitions-service /system/bin/make-fake-partitions-service.sh reserve
@@ -54,6 +55,7 @@ on boot
     setprop sys.usb.config adb
     chmod 0777 /system/bin/make-fake-partitions-service.sh
     start make-fake-partitions-service
+    start hal_cryptoeng_oplus
 
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
