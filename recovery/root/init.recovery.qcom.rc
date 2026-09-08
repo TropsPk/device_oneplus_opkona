@@ -50,6 +50,9 @@ on init
     # checker programs.
     mkdir /dev/fscklogs 0770 root system
 
+on post-fs-data
+    mkdir /data/vendor_de/0/cryptoeng 0770 system system
+
 on boot
     setprop sys.usb.config adb
     chmod 0777 /system/bin/make-fake-partitions-service.sh
