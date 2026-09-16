@@ -128,7 +128,7 @@
 
 # 02-Oct-2022 OrangeFox R12.1 V10
  - Synced with latest fox_12.1 changes
- - Build a seperate Orangefox Version for ROMs with EROFS Filesystem
+ - Build a separate Orangefox Version for ROMs with EROFS Filesystem
 
 # 25-Sep-2022 OrangeFox R12.1 V9
  - Synced with latest fox_12.1 changes
