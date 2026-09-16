@@ -5,7 +5,7 @@
 ## Changelog
 
 # 07-May-2026 R12.0 V34
-  - New Orangefox R12.0 with new UI look
+  - New Orangefox R12.0 with new UI look.
   - Synced with latest Orangefox R12.0 release Changes
   - Should work on all Android 13 - Android 16 custom ROMs
 
