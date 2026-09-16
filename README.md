@@ -36,7 +36,7 @@
 
 # 15-Dec-2023 R12.1 V27
   - Synced with latest Orangefox source changes
-  - Upated Magisk addon to Magisk 26.4
+  - Updated Magisk addon to Magisk 26.4
 
 # 03-Nov-2023 R12.1 V26
   - Synced with latest Orangefox source changes
