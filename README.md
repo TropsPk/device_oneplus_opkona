@@ -1,7 +1,7 @@
 <img src="https://github.com/Sanju0910/Sanju0910/blob/main/images/of_logo.png" width=100 height=100 align="left" />  
 <img src="https://github.com/Sanju0910/Sanju0910/blob/main/images/oneplus_logo.png" align="right"/>
 
-## OrangeFox Recovery Project Oneplus 8 series & 9R 
+## OrangeFox Recovery Project Oneplus 8 series & 9R.
 ## Changelog
 
 # 07-May-2026 R12.0 V34
