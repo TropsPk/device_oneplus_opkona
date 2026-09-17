@@ -182,6 +182,7 @@
 - OrangeFox team
 - Qnorsten for OOS fix
 - TropsPk for maintaining this device tree
+- Claude (Anthropic) for assistance
 
 
 .
