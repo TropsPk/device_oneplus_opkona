@@ -181,6 +181,7 @@
 - TWRP team
 - OrangeFox team
 - Qnorsten for OOS fix
+- TropsPk for maintaining this device tree
 
 
 .
